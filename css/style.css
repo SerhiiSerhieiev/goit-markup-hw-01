@@ -19,7 +19,7 @@ body {
 /* ---------------------header */
 
 .header-link {
-  --main-text-style: "Roboto";
+ font-family: var(--main-text-style);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -29,56 +29,62 @@ body {
 }
 
 .header-link:hover {
-  --main-text-style: "Roboto";
+  font-family: var(--main-text-style);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  --accent-color: #2196f3;
+  color:var(--accent-color);
 }
 
 .header-tel {
-  --main-text-style: "Roboto";
+  font-family: var(--main-text-style);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
 
 .header-tel:hover,
 .header-tel:focus {
-  --main-text-style: "Roboto";
+  font-family: var(--main-text-style);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #41f31e;
+  color:var(--accent-color);
 }
 .header-mail {
+  font-family: var(--main-text-style);
   font-weight: 500;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  --accent-color: #2196f3;
+  color: #757575;
+  text-decoration: none;
 }
 
 .header-mail:hover,
 .header-mail:focus {
+  font-family: var(--main-text-style);
   font-weight: 500;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #f50b0b;
+  color:var(--accent-color);
 }
 
 /*                       hero */
 
 .hero-text {
-  --main-text-style: "Roboto";
+  font-family: var(--main-text-style);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -90,7 +96,7 @@ body {
 }
 
 .hero-button {
-  --main-text-style: "Roboto";
+  font-family: var(--main-text-style);
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -106,7 +112,7 @@ body {
 /* specifics */
 
 .specifics-name {
-  --main-text-style: "Roboto";
+  font-family: var(--main-text-style);
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -117,7 +123,7 @@ body {
 }
 
 .specifics-discr {
-  --main-text-style: "Roboto";
+  font-family: var(--main-text-style);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -129,7 +135,7 @@ body {
 /* what do we do */
 
 .h2 {
-  --main-text-style: "Roboto";
+  font-family: var(--main-text-style);
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -142,7 +148,7 @@ body {
 /* team */
 
 .h3 {
-  --main-text-style: "Roboto";
+  font-family: var(--main-text-style);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -152,7 +158,7 @@ body {
   color: var(--main-text-color);
 }
 .team-position {
-  --main-text-style: "Roboto";
+  font-family: var(--main-text-style);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -172,15 +178,16 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  --accent-color: #2196f3;
+  color: #2196f3;
 }
 
 .address {
-  --main-text-style: "Roboto";
-  font-style: normal;
+  font-family: var(--main-text-style);
+  font-style:normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+  text-decoration: none;
 }
