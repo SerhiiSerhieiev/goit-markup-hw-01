@@ -19,8 +19,7 @@ body {
 /* ---------------------header */
 
 .header-link {
- font-family: var(--main-text-style);
-  font-style: normal;
+  font-family: var(--main-text-style);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -30,12 +29,11 @@ body {
 
 .header-link:hover {
   font-family: var(--main-text-style);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color:var(--accent-color);
+  color: var(--accent-color);
 }
 
 .header-tel {
@@ -57,7 +55,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color:var(--accent-color);
+  color: var(--accent-color);
 }
 .header-mail {
   font-family: var(--main-text-style);
@@ -78,14 +76,17 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color:var(--accent-color);
+  color: var(--accent-color);
 }
 
 /*                       hero */
 
+.hero {
+  background-color: #212121;
+}
+
 .hero-text {
   font-family: var(--main-text-style);
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 0.73;
@@ -97,7 +98,6 @@ body {
 
 .hero-button {
   font-family: var(--main-text-style);
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -113,7 +113,6 @@ body {
 
 .specifics-name {
   font-family: var(--main-text-style);
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -127,16 +126,16 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71x;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 
 /* what do we do */
 
 .h2 {
   font-family: var(--main-text-style);
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -149,7 +148,6 @@ body {
 
 .h3 {
   font-family: var(--main-text-style);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -159,7 +157,6 @@ body {
 }
 .team-position {
   font-family: var(--main-text-style);
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -170,10 +167,13 @@ body {
 
 /* footer */
 
+.footer {
+  background-color: #212121;
+}
+
 .icon-name {
   text-decoration: none;
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -183,8 +183,8 @@ body {
 
 .address {
   font-family: var(--main-text-style);
-  font-style:normal;
   font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
