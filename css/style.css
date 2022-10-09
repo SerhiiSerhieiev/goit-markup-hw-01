@@ -57,6 +57,7 @@ p,h1,h2,h3,h4,h5,h6 {
 }
 
 .header-container{
+  
   display: flex;
   padding-left: 215px;
 }
@@ -191,6 +192,7 @@ border-radius: 4px;
   
 }
 .container-text{
+  background-color: #cae725;
   
   }
 /* specifics */
@@ -240,6 +242,7 @@ justify-content: center;
 }  
 
 .what-do-we-do-items{
+  background-color: #cae725;
  
 }
 .what-do-we-do-flex{
@@ -464,7 +467,7 @@ border: 1px solid #EEEEEE;
 
 }
 
-.
+
 
 .portfolio-name {
   font-family: "Roboto";
